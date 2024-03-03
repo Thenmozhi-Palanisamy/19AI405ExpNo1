@@ -43,7 +43,7 @@
 
 ## CODE:
 
-
+``````
 import random
 class VacuumCleanerAgent:
     def __init__(self): # Initialize the agent's state (location and dirt status)
@@ -78,9 +78,11 @@ class VacuumCleanerAgent:
             print("Invalid action")
     def print_status(self): # Print the current status of the agent
         print(f"Location: {self.location}, Dirt Status: {self.dirt_status}, ",end="")
-        print(f"Perfomance Measure: {self.performance}")
+     print(f"Perfomance Measure: {self.performance}")
+`````
 # Example usage:
 agent = VacuumCleanerAgent()
+````
 # Move the agent, suck dirt, and do nothing
 agent.perform_action("left")
 agent.print_status()
@@ -92,7 +94,7 @@ agent.perform_action("suck")
 agent.print_status()
 agent.perform_action("nothing")
 agent.print_status()
-
+```````
 ## Output:
 
 ![308522636-2a59cf92-e813-46b7-a31c-1b7865f18b70](https://github.com/Thenmozhi-Palanisamy/19AI405ExpNo1/assets/95198708/7483bd85-9d16-45db-a8d7-6657e72f3774)
